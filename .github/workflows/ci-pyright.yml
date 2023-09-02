@@ -38,7 +38,7 @@ jobs:
 
       - name: retrieve pyright version
         run: |
-          VER=$(cat pyproject.toml | grep -m 1 pyright | awk -F'^' '{print $NF} | sed 's/.$//'')
+          VER=$(grep -o 'pyright = "[^"]*"' pyproject.toml | sed 's/pyright = "^\(.*\)"/\1/')
           echo "PYRIGHT_VERSION=$VER" >> $GITHUB_ENV
 
       - name: Pyright
