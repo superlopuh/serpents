@@ -3,5 +3,6 @@
         "serpents"
     ],
     "python.testing.unittestEnabled": false,
-    "python.testing.pytestEnabled": true
+    "python.testing.pytestEnabled": true,
+    "workbench.colorTheme": "Xcode_default"
 }
