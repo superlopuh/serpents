@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "serpents"
+version = "0.1.0"
+description = ""
+authors = ["Sasha Lopoukhine <sasha@lopoukhine.com>"]
+readme = "README.md"
+packages = [{ include = "graps" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+xdsl = "^0.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pyright]
+enableTypeIgnoreComments = false
+typeCheckingMode = "strict"
+"include" = ["serpents"]
+
+[tool.isort]
+profile = "black"
+
+[tool.ruff]
+select = ["E", "F", "W", "I", "UP", "PT"]
+line-length = 90
+target-version = "py310"
+
+[tool.ruff.mccabe]
+max-complexity = 10
