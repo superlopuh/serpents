@@ -34,7 +34,7 @@ jobs:
         run: |
           pip install --upgrade pip
           pip install poetry
-          poetry install
+          poetry install --no-root
 
       - name: retrieve pyright version
         run: |
