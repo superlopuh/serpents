@@ -9,6 +9,7 @@ packages = [{ include = "graps" }]
 [tool.poetry.dependencies]
 python = "^3.10"
 xdsl = "^0.14.0"
+pyright = "^1.1.325"
 
 
 [build-system]
