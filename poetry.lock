@@ -152,13 +152,13 @@ dev = ["twine (>=3.4.1)"]
 
 [[package]]
 name = "pytest"
-version = "7.4.1"
+version = "7.4.2"
 description = "pytest: simple powerful testing with Python"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "pytest-7.4.1-py3-none-any.whl", hash = "sha256:460c9a59b14e27c602eb5ece2e47bec99dc5fc5f6513cf924a7d03a578991b1f"},
-    {file = "pytest-7.4.1.tar.gz", hash = "sha256:2f2301e797521b23e4d2585a0a3d7b5e50fdddaaf7e7d6773ea26ddb17c213ab"},
+    {file = "pytest-7.4.2-py3-none-any.whl", hash = "sha256:1d881c6124e08ff0a1bb75ba3ec0bfd8b5354a01c194ddd5a0a870a48d99b002"},
+    {file = "pytest-7.4.2.tar.gz", hash = "sha256:a766259cfab564a2ad52cb1aae1b881a75c3eb7e34ca3779697c23ed47c47069"},
 ]
 
 [package.dependencies]
@@ -232,4 +232,4 @@ extras = ["asv (<0.6)", "black[jupyter]", "coverage (<8.0.0)", "filecheck (<0.0.
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "43580620fbb68e380ad729f5559571311fa0686297d92fcb630e6d5ee1af7f07"
+content-hash = "8819a2e5115a12e8370ce7cf8e9cf2e93553c27f41e79524560097f9251fb650"
