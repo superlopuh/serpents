@@ -134,13 +134,13 @@ testing = ["pytest", "pytest-benchmark"]
 
 [[package]]
 name = "pyright"
-version = "1.1.325"
+version = "1.1.326"
 description = "Command line wrapper for pyright"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "pyright-1.1.325-py3-none-any.whl", hash = "sha256:8f3ab88ba4843f053ab5b5c886d676161aba6f446776bfb57cc0434ed4d88672"},
-    {file = "pyright-1.1.325.tar.gz", hash = "sha256:879a3f66944ffd59d3facd54872fed814830fed64daf3e8eb71b146ddd83bb67"},
+    {file = "pyright-1.1.326-py3-none-any.whl", hash = "sha256:f3c5047465138558d3d106a9464cc097cf2c3611da6edcf5b535cc1fdebd45db"},
+    {file = "pyright-1.1.326.tar.gz", hash = "sha256:cecbe026b14034ba0750db605718a8c2605552387c5772dfaf7f3e632cb7212a"},
 ]
 
 [package.dependencies]
@@ -232,4 +232,4 @@ extras = ["asv (<0.6)", "black[jupyter]", "coverage (<8.0.0)", "filecheck (<0.0.
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "8819a2e5115a12e8370ce7cf8e9cf2e93553c27f41e79524560097f9251fb650"
+content-hash = "3adb4badb084c7daa80715337f7447a3c02df6ef2d0f3d76d340d35f6e969dec"
