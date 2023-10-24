@@ -10,7 +10,7 @@ packages = [{ include = "graps" }]
 python = "^3.10"
 xdsl = "^0.15.0"
 pyright = "^1.1.332"
-pytest = "^7.4.2"
+pytest = "^7.4.3"
 numpy = "^1.25.2"
 
 
