@@ -148,13 +148,13 @@ testing = ["pytest", "pytest-benchmark"]
 
 [[package]]
 name = "pyright"
-version = "1.1.341"
+version = "1.1.342"
 description = "Command line wrapper for pyright"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "pyright-1.1.341-py3-none-any.whl", hash = "sha256:f5800daf9d5780ebf6c6e04064a6d20da99c0ef16efd77526f83cc8d8551ff9f"},
-    {file = "pyright-1.1.341.tar.gz", hash = "sha256:b891721f3abd10635cc4fd3076bcff5b7676567dc3a629997ed59a0d30034a87"},
+    {file = "pyright-1.1.342-py3-none-any.whl", hash = "sha256:9a7b95b3a2a90ef7b4297221173956f7f2db2a6cf4f0c7493f2a2349d38305fc"},
+    {file = "pyright-1.1.342.tar.gz", hash = "sha256:c8e9785b9080c1aaf2a2efad706249ec65e15abd5f542ee455956acfd404d273"},
 ]
 
 [package.dependencies]
@@ -246,4 +246,4 @@ extras = ["pyclip (==0.7)", "riscemu (==2.2.5)", "textual (==0.46.0)", "wgpu (==
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "235f894aae648fe680538b0315775de70e31cf15a3f87a15e4b8030623d3cec1"
+content-hash = "0424886d59dc709e9c6d881f956b86e5ef8ac38e7f19170a54bb9f08691a7a04"
