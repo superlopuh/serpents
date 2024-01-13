@@ -12,6 +12,7 @@ xdsl = "^0.16.0"
 pyright = "^1.1.345"
 pytest = "^7.4.4"
 numpy = "^1.26.3"
+marimo = "^0.1.76"
 
 
 [build-system]
