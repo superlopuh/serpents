@@ -19,4 +19,4 @@ repos:
       rev: 23.3.0
       hooks:
           - id: black
-            exclude: "^/experiments/.*.py"
+            exclude: "experiments/canonicalization.py"
