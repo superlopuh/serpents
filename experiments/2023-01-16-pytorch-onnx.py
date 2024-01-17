@@ -17,7 +17,7 @@ def __(mo):
 
     ## Part 0: Converting PyTorch to ONNX
 
-    This is a first of a series of blog posts on how to use [xDSL](https://xdsl.dev/) to compile a neural network implemented in [PyTorch](https://pytorch.org/) to an AI accelerator built on top of the [RISC-V](https://riscv.org/) ISA.
+    This is a first of a series of blog posts on how to use [xDSL](https://xdsl.dev/) to compile a neural network implemented in [PyTorch](https://pytorch.org/) to an AI accelerator built on top of the [RISC-V ISA](https://riscv.org/).
     The objective of these blog posts is to serve as an introduction to writing compilers in general, and to discuss some of the interesting challenges of compiling neural networks specifically.
 
     As a starting point, this post will follow [this tutorial in the PyTorch documentation](https://pytorch.org/tutorials//beginner/onnx/export_simple_model_to_onnx_tutorial.html) on how to convert a PyTorch Model to ONNX.
