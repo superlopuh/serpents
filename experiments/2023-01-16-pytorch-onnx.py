@@ -85,6 +85,7 @@ def __(mo):
 
 @app.cell
 def __(MyModel, mo, torch):
+    torch.manual_seed(0)
     torch_model = MyModel()
     torch_input = torch.randn(1, 1, 32, 32)
     onnx_program = torch.onnx.dynamo_export(torch_model, torch_input)
@@ -93,6 +94,7 @@ def __(MyModel, mo, torch):
     ### 2. Export the model to ONNX format
 
     ``` python
+    torch.manual_seed(0)
     torch_model = MyModel()
     torch_input = torch.randn(1, 1, 32, 32)
     onnx_program = torch.onnx.dynamo_export(torch_model, torch_input)
