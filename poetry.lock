@@ -282,6 +282,21 @@ files = [
 ]
 
 [[package]]
+name = "importlib-resources"
+version = "6.1.1"
+description = "Read resources from Python packages"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "importlib_resources-6.1.1-py3-none-any.whl", hash = "sha256:e8bf90d8213b486f428c9c39714b920041cb02c184686a3dee24905aaa8105d6"},
+    {file = "importlib_resources-6.1.1.tar.gz", hash = "sha256:3893a00122eafde6894c59914446a512f728a0c1a45f9bb9b63721b6bacf0b4a"},
+]
+
+[package.extras]
+docs = ["furo", "jaraco.packaging (>=9.3)", "jaraco.tidelift (>=1.4)", "rst.linker (>=1.9)", "sphinx (<7.2.5)", "sphinx (>=3.5)", "sphinx-lint"]
+testing = ["pytest (>=6)", "pytest-black (>=0.3.7)", "pytest-checkdocs (>=2.4)", "pytest-cov", "pytest-enabler (>=2.2)", "pytest-mypy (>=0.9.1)", "pytest-ruff", "zipp (>=3.17)"]
+
+[[package]]
 name = "iniconfig"
 version = "2.0.0"
 description = "brain-dead simple config-ini parsing"
@@ -742,6 +757,17 @@ files = [
 ]
 
 [[package]]
+name = "pyelftools"
+version = "0.30"
+description = "Library for analyzing ELF files and DWARF debugging information"
+optional = false
+python-versions = "*"
+files = [
+    {file = "pyelftools-0.30-py2.py3-none-any.whl", hash = "sha256:544c3440eddb9a0dce70b6611de0b28163d71def759d2ed57a0d00118fc5da86"},
+    {file = "pyelftools-0.30.tar.gz", hash = "sha256:2fc92b0d534f8b081f58c7c370967379123d8e00984deb53c209364efd575b40"},
+]
+
+[[package]]
 name = "pygments"
 version = "2.17.2"
 description = "Pygments is a syntax highlighting package written in Python."
@@ -950,6 +976,21 @@ files = [
 [package.dependencies]
 attrs = ">=22.2.0"
 rpds-py = ">=0.7.0"
+
+[[package]]
+name = "riscemu"
+version = "2.2.5"
+description = "A basic RISC-V emulator"
+optional = false
+python-versions = ">=3.8,<4.0"
+files = [
+    {file = "riscemu-2.2.5-py3-none-any.whl", hash = "sha256:fad2aea86c812764935a131849fe298ef00cf1ec896c7f64b23c086a2d91b77d"},
+    {file = "riscemu-2.2.5.tar.gz", hash = "sha256:10267f10f76fec190886a57edbdbd42fb2a4069dfa069d54f7e10d3204b4d468"},
+]
+
+[package.dependencies]
+importlib-resources = ">=6.1.0,<7.0.0"
+pyelftools = ">=0.30,<0.31"
 
 [[package]]
 name = "rpds-py"
@@ -1184,4 +1225,4 @@ extras = ["pyclip (==0.7)", "riscemu (==2.2.5)", "textual (==0.46.0)", "wgpu (==
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "57debd137239b677d24983beb2820040c57dcd23dec0d0b36b273f39dcf2db43"
+content-hash = "7ff025e21fb2beae9846cc57678d47fd41f104b310ae71834c94f864605ba3d1"
