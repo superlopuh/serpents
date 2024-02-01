@@ -1205,13 +1205,13 @@ files = [
 
 [[package]]
 name = "xdsl"
-version = "0.16.0"
+version = "0.17"
 description = "xDSL"
 optional = false
 python-versions = ">=3.10"
 files = [
-    {file = "xdsl-0.16.0-py3-none-any.whl", hash = "sha256:c21700cafb44d7962b6fbe0ad2383283e1c62fcd772b1518c85276afc5d19f39"},
-    {file = "xdsl-0.16.0.tar.gz", hash = "sha256:73ec70acfc103ab588adf919c197b0243c94659c7fb597ba7cf92b46d879e852"},
+    {file = "xdsl-0.17-py3-none-any.whl", hash = "sha256:61ea8a41a0322d1d2213d0bd071368c2e983437f74d1442e0b2be5c17dba356e"},
+    {file = "xdsl-0.17.tar.gz", hash = "sha256:dee8b3b80dcd91eb416e8ee1aad7b90ed0b64aa921ff7534eed2a148cc8ed600"},
 ]
 
 [package.dependencies]
@@ -1220,9 +1220,9 @@ ordered-set = "4.1.0"
 typing-extensions = ">=4.7,<5"
 
 [package.extras]
-extras = ["pyclip (==0.7)", "riscemu (==2.2.5)", "textual (==0.46.0)", "wgpu (==0.13.1)"]
+extras = ["pyclip (==0.7)", "riscemu (==2.2.5)", "textual (==0.47.1)", "wgpu (==0.13.2)"]
 
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "1c72c7d36ab979c2d1e236395af9917eb1c36560e19dfa371c19a8639cd9681c"
+content-hash = "f60e3af0af0f12a0ab916159914b8c57c9e2f3ff91b32f3ba9d16d782f9e64a9"
