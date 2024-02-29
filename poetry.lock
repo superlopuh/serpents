@@ -784,13 +784,13 @@ windows-terminal = ["colorama (>=0.4.6)"]
 
 [[package]]
 name = "pyright"
-version = "1.1.351"
+version = "1.1.352"
 description = "Command line wrapper for pyright"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "pyright-1.1.351-py3-none-any.whl", hash = "sha256:83b44b25396ae20661fc5f133c3fce30928ff1296d4f2e5ff0bca5fcf03eb89d"},
-    {file = "pyright-1.1.351.tar.gz", hash = "sha256:01124099714eebd7f6525d8cbfa350626b56dfaf771cfcd55c03e69f0f1efbbd"},
+    {file = "pyright-1.1.352-py3-none-any.whl", hash = "sha256:0040cf173c6a60704e553bfd129dfe54de59cc76d0b2b80f77cfab4f50701d64"},
+    {file = "pyright-1.1.352.tar.gz", hash = "sha256:a621c0dfbcf1291b3610641a07380fefaa1d0e182890a1b2a7f13b446e8109a9"},
 ]
 
 [package.dependencies]
@@ -1225,4 +1225,4 @@ extras = ["pyclip (==0.7)", "riscemu (==2.2.5)", "textual (==0.47.1)", "wgpu (==
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "6345c6f0c6ebd626ce1bb86cb45b5a07a2667122e3f136bfaff16b0cc9a5d3ad"
+content-hash = "8912234520ef74774f0badd503ea09dbea86c411f3d9501f7733141798569cdf"
