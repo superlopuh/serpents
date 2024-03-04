@@ -508,13 +508,13 @@ test = ["pep440", "pre-commit", "pytest", "testpath"]
 
 [[package]]
 name = "nbval"
-version = "0.10.0"
+version = "0.11.0"
 description = "A py.test plugin to validate Jupyter notebooks"
 optional = false
-python-versions = ">=3.6, <4"
+python-versions = ">=3.7, <4"
 files = [
-    {file = "nbval-0.10.0-py2.py3-none-any.whl", hash = "sha256:427e42caabeae39f493d8baca629b03816269fc11f1b7e2046e10929a3149a73"},
-    {file = "nbval-0.10.0.tar.gz", hash = "sha256:b4acefdc1132aef8a1b5b62bf9a93d128eba52839b2854ea3e42598f4db7beb3"},
+    {file = "nbval-0.11.0-py2.py3-none-any.whl", hash = "sha256:307aecc866c9a1e8a13bb5bbb008a702bacfda2394dff6fe504a3108a58042a0"},
+    {file = "nbval-0.11.0.tar.gz", hash = "sha256:77c95797607b0a968babd2597ee3494102d25c3ad37435debbdac0e46e379094"},
 ]
 
 [package.dependencies]
@@ -522,7 +522,7 @@ coverage = "*"
 ipykernel = "*"
 jupyter-client = "*"
 nbformat = "*"
-pytest = ">=2.8"
+pytest = ">=7"
 
 [[package]]
 name = "nest-asyncio"
@@ -1225,4 +1225,4 @@ extras = ["pyclip (==0.7)", "riscemu (==2.2.5)", "textual (==0.47.1)", "wgpu (==
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "6b9f383c19fe097e70a59dc6641c9813a639d44dee76c0b2ae73492f6e0d3c9f"
+content-hash = "d30ad540f5313eb3c1fed29222fc46fb1b8ae40d9cd6c8e57c279c1bcc5dc3fd"
