@@ -784,13 +784,13 @@ windows-terminal = ["colorama (>=0.4.6)"]
 
 [[package]]
 name = "pyright"
-version = "1.1.354"
+version = "1.1.359"
 description = "Command line wrapper for pyright"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "pyright-1.1.354-py3-none-any.whl", hash = "sha256:f28d61ae8ae035fc52ded1070e8d9e786051a26a4127bbd7a4ba0399b81b37b5"},
-    {file = "pyright-1.1.354.tar.gz", hash = "sha256:b1070dc774ff2e79eb0523fe87f4ba9a90550de7e4b030a2bc9e031864029a1f"},
+    {file = "pyright-1.1.359-py3-none-any.whl", hash = "sha256:5582777be7eab73512277ac7da7b41e15bc0737f488629cb9babd96e0769be61"},
+    {file = "pyright-1.1.359.tar.gz", hash = "sha256:f0eab50f3dafce8a7302caeafd6a733f39901a2bf5170bb23d77fd607c8a8dbc"},
 ]
 
 [package.dependencies]
@@ -1226,4 +1226,4 @@ onnx = ["onnx-weekly"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "86aae11df4e30d25789dea16d867f4210e29bd212416c95290c481f7e5777330"
+content-hash = "3f5427dcc1522b09279f04fc71e181981ecbc4ef882bbe5bf62483dadae4fd89"
