@@ -979,13 +979,13 @@ rpds-py = ">=0.7.0"
 
 [[package]]
 name = "riscemu"
-version = "2.2.5"
+version = "2.2.6"
 description = "A basic RISC-V emulator"
 optional = false
-python-versions = ">=3.8,<4.0"
+python-versions = "<4.0,>=3.8"
 files = [
-    {file = "riscemu-2.2.5-py3-none-any.whl", hash = "sha256:fad2aea86c812764935a131849fe298ef00cf1ec896c7f64b23c086a2d91b77d"},
-    {file = "riscemu-2.2.5.tar.gz", hash = "sha256:10267f10f76fec190886a57edbdbd42fb2a4069dfa069d54f7e10d3204b4d468"},
+    {file = "riscemu-2.2.6-py3-none-any.whl", hash = "sha256:43fbfaab0356543c86ce71387b57db7ce568472b7ac1998cf003b515a192667c"},
+    {file = "riscemu-2.2.6.tar.gz", hash = "sha256:f67aaa2696eecc3c8b31e28cb78172d8b3a05e91d408715f3a8e506c48f81d4e"},
 ]
 
 [package.dependencies]
@@ -1226,4 +1226,4 @@ onnx = ["onnx (==1.16)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "4af647b21e4ba2544bf915a27c18db51f6762b91bc95f3bad5e5adff256ca28c"
+content-hash = "d074d6d61f10591eb075a95947c11d350a482ec62ee7b43d20e5cd3706672581"
