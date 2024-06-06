@@ -1205,25 +1205,25 @@ files = [
 
 [[package]]
 name = "xdsl"
-version = "0.19.0"
+version = "0.20.0"
 description = "xDSL"
 optional = false
 python-versions = ">=3.10"
 files = [
-    {file = "xdsl-0.19.0-py3-none-any.whl", hash = "sha256:368e93b74c45f6d2b321578b7ce298d375150699e56b791db5c0da17f54e8bdc"},
-    {file = "xdsl-0.19.0.tar.gz", hash = "sha256:ae4e3f44df6f6ce0d1a885b5fc104ae4432496890b5b9a71294d6dbab2708500"},
+    {file = "xdsl-0.20.0-py3-none-any.whl", hash = "sha256:ebc02573434a6f92fc076e224f3c0522041b63785ac6ff1e9784776df7cfb64c"},
+    {file = "xdsl-0.20.0.tar.gz", hash = "sha256:f24d704734c85aab67852ba9caa2db45b4d7273cbe8c1d4dccd70a80475a3101"},
 ]
 
 [package.dependencies]
 immutabledict = "<4.2.1"
 ordered-set = "4.1.0"
-typing-extensions = ">=4.7,<5"
+typing-extensions = ">=4.7,<4.13"
 
 [package.extras]
-extras = ["pyclip (==0.7)", "riscemu (==2.2.5)", "textual (==0.58.1)", "wgpu (==0.15.1)"]
-onnx = ["onnx (==1.16)"]
+extras = ["pyclip (==0.7)", "riscemu (==2.2.6)", "textual (==0.63.2)", "wgpu (==0.15.2)"]
+onnx = ["onnx (==1.16.1)"]
 
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "6640cac6d73a8267d4ba2a21d481da5ca3056d12dd08e99b85ef176308d36abe"
+content-hash = "e907dbd74ba4e62048d494b8be9794dfb9ce5b50f1487ebe7d0d4e3ad1a39925"
