@@ -1214,13 +1214,13 @@ files = [
 
 [[package]]
 name = "xdsl"
-version = "0.20.0"
+version = "0.21.0"
 description = "xDSL"
 optional = false
 python-versions = ">=3.10"
 files = [
-    {file = "xdsl-0.20.0-py3-none-any.whl", hash = "sha256:ebc02573434a6f92fc076e224f3c0522041b63785ac6ff1e9784776df7cfb64c"},
-    {file = "xdsl-0.20.0.tar.gz", hash = "sha256:f24d704734c85aab67852ba9caa2db45b4d7273cbe8c1d4dccd70a80475a3101"},
+    {file = "xdsl-0.21.0-py3-none-any.whl", hash = "sha256:93f8f6114d6afcb130b2391a4af56d30ac521c50b0d40ddbbd5efc7861ff5e38"},
+    {file = "xdsl-0.21.0.tar.gz", hash = "sha256:3c4d6a27bcb8e71e05c20a3b416c2574b33d9178720c456ed7cf8685bbf982c3"},
 ]
 
 [package.dependencies]
@@ -1229,10 +1229,13 @@ ordered-set = "4.1.0"
 typing-extensions = ">=4.7,<4.13"
 
 [package.extras]
-extras = ["pyclip (==0.7)", "riscemu (==2.2.6)", "textual (==0.63.2)", "wgpu (==0.15.2)"]
+dev = ["asv (<0.7)", "black[jupyter] (==24.4.2)", "coverage (<8.0.0)", "filecheck (==1.0.0)", "ipykernel", "isort (==5.13.2)", "lit (<19.0.0)", "marimo (==0.7.5)", "nbconvert (>=7.7.2,<8.0.0)", "nbval (<0.12)", "pip (<25.0)", "pre-commit (==3.7.1)", "pyright (==1.1.345)", "pytest (<8.3)", "pytest-asyncio (==0.23.7)", "pytest-cov", "ruff (==0.5.2)", "textual-dev (==1.5.1)", "toml (<0.11)"]
+gui = ["pyclip (==0.7)", "textual (==0.72.0)"]
 onnx = ["onnx (==1.16.1)"]
+riscv = ["riscemu (==2.2.7)"]
+wgpu = ["wgpu (==0.16.0)"]
 
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "93779b352c5b24e848462d53b563bbffe2268424234e3ff2e34cffb36162de52"
+content-hash = "7b2eb4862f6e36037d9b7a14a8236dbcc1490c96a44b2b2f0ee2b201e77af5f1"
