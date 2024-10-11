@@ -1222,13 +1222,13 @@ files = [
 
 [[package]]
 name = "xdsl"
-version = "0.22.0"
+version = "0.23.0"
 description = "xDSL"
 optional = false
 python-versions = ">=3.10"
 files = [
-    {file = "xdsl-0.22.0-py3-none-any.whl", hash = "sha256:03d3596d540a7e652d659f32f318784c644d175188ddc076994d9b7dc98a7615"},
-    {file = "xdsl-0.22.0.tar.gz", hash = "sha256:fadf0b89cfdf9bbbbb3cd110b3d0ed4b0a159c38c18ddcb8ddfeb6aad9333ccb"},
+    {file = "xdsl-0.23.0-py3-none-any.whl", hash = "sha256:3b3c24be081964ab35b711aeff23f481668b3a123f0054482d1464d8175f30cc"},
+    {file = "xdsl-0.23.0.tar.gz", hash = "sha256:28b177543cd6d4a6cb85bf48c63b938e13c37baf152873fa1015b6c19b1732a6"},
 ]
 
 [package.dependencies]
@@ -1237,14 +1237,14 @@ ordered-set = "4.1.0"
 typing-extensions = ">=4.7,<4.13"
 
 [package.extras]
-dev = ["asv (<0.7)", "coverage (<8.0.0)", "filecheck (==1.0.0)", "ipykernel", "lit (<19.0.0)", "marimo (==0.8.7)", "nbconvert (>=7.7.2,<8.0.0)", "nbval (<0.12)", "pip (<25.0)", "pre-commit (==3.8.0)", "pyright (==1.1.345)", "pytest (<8.4)", "pytest-asyncio (==0.24.0)", "pytest-cov", "ruff (==0.6.3)", "textual-dev (==1.6.1)", "toml (<0.11)"]
-gui = ["pyclip (==0.7)", "textual (==0.79.1)"]
-jax = ["jax (==0.4.31)", "numpy (==2.1.0)"]
-onnx = ["numpy (==2.1.0)", "onnx (==1.16.2)"]
+dev = ["asv (<0.7)", "coverage (<8.0.0)", "filecheck (==1.0.1)", "ipykernel", "lit (<19.0.0)", "marimo (==0.9.6)", "nbconvert (>=7.7.2,<8.0.0)", "nbval (<0.12)", "pip (<25.0)", "pre-commit (==4.0.1)", "pyright (==1.1.384)", "pytest (<8.4)", "pytest-asyncio (==0.24.0)", "pytest-cov", "ruff (==0.6.9)", "textual-dev (==1.6.1)", "toml (<0.11)"]
+gui = ["pyclip (==0.7)", "textual (==0.83.0)"]
+jax = ["jax (==0.4.34)", "numpy (==2.1.2)"]
+onnx = ["numpy (==2.1.2)", "onnx (==1.17.0)"]
 riscv = ["riscemu (==2.2.7)"]
-wgpu = ["wgpu (==0.16.0)"]
+wgpu = ["wgpu (==0.18.1)"]
 
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "a30e059759c7c2eeae08e4eded67dcbb7effad54469f32624da72fdccc46f27f"
+content-hash = "20d67ce0893d3777e6c0893daafa94ca4a05508587d4601634526c71b79e99a2"
