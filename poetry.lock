@@ -1226,13 +1226,13 @@ files = [
 
 [[package]]
 name = "xdsl"
-version = "0.26.0"
+version = "0.27.0"
 description = "xDSL"
 optional = false
 python-versions = ">=3.10"
 files = [
-    {file = "xdsl-0.26.0-py3-none-any.whl", hash = "sha256:69bb52c7c1081a6bb4a16b4e25dbacf06abe75ba33ada7531359d9f0d8241949"},
-    {file = "xdsl-0.26.0.tar.gz", hash = "sha256:e57668c036101f2aa73487ab79b325a6254e14d417e2b939df38224f9879d2c1"},
+    {file = "xdsl-0.27.0-py3-none-any.whl", hash = "sha256:5c810c90fe02be65565ea627d90828fb450d811d75db3b7220888620cbd9274f"},
+    {file = "xdsl-0.27.0.tar.gz", hash = "sha256:efaa83314942d79314d1fc356496ce9b51a95ac8ce3323d16624d2dded8e93e2"},
 ]
 
 [package.dependencies]
@@ -1241,12 +1241,13 @@ ordered-set = "4.1.0"
 typing-extensions = ">=4.7,<4.13"
 
 [package.extras]
-dev = ["asv (<0.7)", "coverage (<8.0.0)", "filecheck (==1.0.1)", "ipykernel", "lit (<19.0.0)", "marimo (==0.10.12)", "nbconvert (>=7.7.2,<8.0.0)", "nbval (<0.12)", "pip (<25.0)", "pre-commit (==4.0.1)", "pyright (==1.1.391)", "pytest (<8.4)", "pytest-asyncio (==0.25.2)", "pytest-cov", "ruff (==0.9.1)", "textual-dev (==1.7.0)", "toml (<0.11)"]
+dev = ["asv (<0.7)", "coverage (<8.0.0)", "filecheck (==1.0.1)", "ipykernel", "lit (<19.0.0)", "marimo (==0.10.14)", "nbconvert (>=7.7.2,<8.0.0)", "nbval (<0.12)", "pip (<25.0)", "pre-commit (==4.1.0)", "pyright (==1.1.392.post0)", "pytest (<8.4)", "pytest-asyncio (==0.25.2)", "pytest-cov", "ruff (==0.9.3)", "textual-dev (==1.7.0)", "toml (<0.11)"]
+docs = ["mkdocs (>=1.6.1)", "mkdocs-gen-files (>=0.5.0)", "mkdocs-material (>=9.5.49)", "mkdocstrings[python] (>=0.27.0)"]
 gui = ["pyclip (==0.7)", "textual (==1.0.0)"]
-jax = ["jax (==0.4.38)", "numpy (==2.2.1)"]
+jax = ["jax (==0.5.0)", "numpy (==2.2.2)"]
 riscv = ["riscemu (==2.2.7)"]
 
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "c48205a965e142fa25a0e74bff357199be4c506054928c86875a22bb4089f3c6"
+content-hash = "96f69c36303778ce027ef630e070866db3047f8cdd4ee6c1ee848e6a0af0b1cc"
