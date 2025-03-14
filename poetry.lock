@@ -1288,14 +1288,14 @@ files = [
 
 [[package]]
 name = "xdsl"
-version = "0.29.0"
+version = "0.30.1"
 description = "xDSL"
 optional = false
 python-versions = ">=3.10"
 groups = ["main"]
 files = [
-    {file = "xdsl-0.29.0-py3-none-any.whl", hash = "sha256:db7ab357e7ba56cf8b431a1ab6754832393acd1fa7f238fe4fcd03310526f166"},
-    {file = "xdsl-0.29.0.tar.gz", hash = "sha256:887775e9ff84d9c3aeb1eb341bf01c03cfe8c58bdbc1717dfe2d0ac06f198776"},
+    {file = "xdsl-0.30.1-py3-none-any.whl", hash = "sha256:a8bb1f1147cbb53b8485802ca9def95a16b596e6bc0c82bfcbac79e665e1e03f"},
+    {file = "xdsl-0.30.1.tar.gz", hash = "sha256:a68419b90169b1a1b3a65a8eb2bc95d3c6bf800852458ed1505811a00c8fe3ce"},
 ]
 
 [package.dependencies]
@@ -1304,14 +1304,14 @@ ordered-set = "4.1.0"
 typing-extensions = ">=4.7,<4.13"
 
 [package.extras]
-bench = ["asv (>=0.6.4)", "orjson (>=3.10.15)", "viztracer (>=1.0.2)"]
-dev = ["coverage (<8.0.0)", "filecheck (==1.0.1)", "ipykernel", "lit (<19.0.0)", "marimo (==0.11.14)", "nbconvert (>=7.7.2,<8.0.0)", "nbval (<0.12)", "pre-commit (==4.1.0)", "pyright (==1.1.396)", "pytest (<8.4)", "pytest-asyncio (==0.25.3)", "pytest-cov", "ruff (==0.9.9)", "sympy (==1.13.3)", "textual-dev (==1.7.0)", "toml (<0.11)"]
+bench = ["asv (>=0.6.4)", "flameprof (>=0.4)", "orjson (>=3.10.15)", "snakeviz (>=2.2.2)", "viztracer (>=1.0.1)"]
+dev = ["coverage (<8.0.0)", "filecheck (==1.0.1)", "ipykernel", "lit (<19.0.0)", "marimo (==0.11.19)", "nbconvert (>=7.7.2,<8.0.0)", "nbval (<0.12)", "pre-commit (==4.1.0)", "pyright (==1.1.396)", "pytest (<8.4)", "pytest-asyncio (==0.25.3)", "pytest-cov", "ruff (==0.9.10)", "sympy (==1.13.3)", "textual-dev (==1.7.0)", "toml (<0.11)"]
 docs = ["mkdocs (>=1.6.1)", "mkdocs-gen-files (>=0.5.0)", "mkdocs-material (>=9.5.49)", "mkdocstrings[python] (>=0.27.0)"]
 gui = ["pyclip (==0.7)", "textual (==2.1.2)"]
-jax = ["jax (==0.5.1)", "numpy (==2.2.3)"]
+jax = ["jax (==0.5.2)", "numpy (==2.2.3)"]
 riscv = ["riscemu (==2.2.7)"]
 
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "060b39ae176cdff11c5575e7af55d1b05be13ce12679e59afa5b13cce7478a8f"
+content-hash = "1b30f89b0069bcb26ce14326e03e56c329fd9918413ee7763f766c088aba6f17"
