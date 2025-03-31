@@ -1288,14 +1288,14 @@ files = [
 
 [[package]]
 name = "xdsl"
-version = "0.31.0"
+version = "0.31.1"
 description = "xDSL"
 optional = false
 python-versions = ">=3.10"
 groups = ["main"]
 files = [
-    {file = "xdsl-0.31.0-py3-none-any.whl", hash = "sha256:aa438281e5950f0b3d1b8853a6f03763fffbca00becaf860e776d0453e756722"},
-    {file = "xdsl-0.31.0.tar.gz", hash = "sha256:bc48945af31c056b4baffcd7b4587b36f32232066de01ffdb313d81bd4e03de9"},
+    {file = "xdsl-0.31.1-py3-none-any.whl", hash = "sha256:b571051c483c47ce7e8638a8d1f91c83e4d07f97080612ebd3c990a489fa24b1"},
+    {file = "xdsl-0.31.1.tar.gz", hash = "sha256:181da8e29ff046d338d15fe7a96a46d0fef2e5d18c137c3db3f8fe1f186b51e8"},
 ]
 
 [package.dependencies]
@@ -1305,9 +1305,9 @@ typing-extensions = ">=4.7,<4.13"
 
 [package.extras]
 bench = ["asv (>=0.6.4)", "flameprof (>=0.4)", "orjson (>=3.10.15)", "snakeviz (>=2.2.2)", "viztracer (>=1.0.1)"]
-dev = ["coverage (<8.0.0)", "filecheck (==1.0.1)", "ipykernel", "lit (<19.0.0)", "marimo (==0.11.23)", "nbconvert (>=7.7.2,<8.0.0)", "nbval (<0.12)", "pre-commit (>=4.0.0,<5.0.0)", "pyright (==1.1.397)", "pytest (<8.4)", "pytest-asyncio (==0.25.3)", "pytest-cov", "ruff (==0.11.1)", "sympy (==1.13.3)", "textual-dev (==1.7.0)", "toml (<0.11)"]
-docs = ["mkdocs (>=1.6.1)", "mkdocs-gen-files (>=0.5.0)", "mkdocs-material (>=9.5.49)", "mkdocstrings[python] (>=0.27.0)"]
-gui = ["pyclip (==0.7)", "textual (==2.1.2)"]
+dev = ["coverage (<8.0.0)", "filecheck (==1.0.1)", "ipykernel", "lit (<19.0.0)", "marimo (==0.11.30)", "nbconvert (>=7.7.2,<8.0.0)", "nbval (<0.12)", "pre-commit (>=4.0.0,<5.0.0)", "pyright (==1.1.397)", "pytest (<8.4)", "pytest-asyncio (==0.26.0)", "pytest-cov", "ruff (==0.11.2)", "sympy (==1.13.3)", "textual-dev (==1.7.0)", "toml (<0.11)"]
+docs = ["lzstring2", "mkdocs (>=1.6.1)", "mkdocs-gen-files (>=0.5.0)", "mkdocs-material (>=9.5.49)", "mkdocstrings[python] (>=0.27.0)", "pymdown-extensions (>=10.7)"]
+gui = ["pyclip (==0.7)", "textual (==3.0.0)"]
 jax = ["jax (==0.5.3)", "numpy (==2.2.4)"]
 riscv = ["riscemu (==2.2.7)"]
 
