@@ -1288,30 +1288,30 @@ files = [
 
 [[package]]
 name = "xdsl"
-version = "0.31.1"
+version = "0.35.0"
 description = "xDSL"
 optional = false
 python-versions = ">=3.10"
 groups = ["main"]
 files = [
-    {file = "xdsl-0.31.1-py3-none-any.whl", hash = "sha256:b571051c483c47ce7e8638a8d1f91c83e4d07f97080612ebd3c990a489fa24b1"},
-    {file = "xdsl-0.31.1.tar.gz", hash = "sha256:181da8e29ff046d338d15fe7a96a46d0fef2e5d18c137c3db3f8fe1f186b51e8"},
+    {file = "xdsl-0.35.0-py3-none-any.whl", hash = "sha256:a90ceca8a0a5018a440a9885c521a6bfa47a576c840badc44b395f166f504289"},
+    {file = "xdsl-0.35.0.tar.gz", hash = "sha256:f82c050fbb9a58163023747125e9e49f63c6e52af42db0ac81e0d429eb24106b"},
 ]
 
 [package.dependencies]
 immutabledict = "<4.2.2"
 ordered-set = "4.1.0"
-typing-extensions = ">=4.7,<4.13"
+typing-extensions = ">=4.7,<5"
 
 [package.extras]
-bench = ["asv (>=0.6.4)", "flameprof (>=0.4)", "orjson (>=3.10.15)", "snakeviz (>=2.2.2)", "viztracer (>=1.0.1)"]
-dev = ["coverage (<8.0.0)", "filecheck (==1.0.1)", "ipykernel", "lit (<19.0.0)", "marimo (==0.11.30)", "nbconvert (>=7.7.2,<8.0.0)", "nbval (<0.12)", "pre-commit (>=4.0.0,<5.0.0)", "pyright (==1.1.397)", "pytest (<8.4)", "pytest-asyncio (==0.26.0)", "pytest-cov", "ruff (==0.11.2)", "sympy (==1.13.3)", "textual-dev (==1.7.0)", "toml (<0.11)"]
+bench = ["asv (>=0.6.4)", "flameprof (>=0.4)", "orjson (>=3.10.15)", "pyinstrument (>=5.0.1)", "snakeviz (>=2.2.2)", "viztracer (>=1.0.1)"]
+dev = ["coverage (<8.0.0)", "filecheck (==1.0.1)", "ipykernel", "lit (<19.0.0)", "marimo (==0.13.0)", "nbconvert (>=7.7.2,<8.0.0)", "nbval (<0.12)", "pre-commit (>=4.0.0,<5.0.0)", "pyright (==1.1.399)", "pytest (<8.4)", "pytest-asyncio (==0.26.0)", "pytest-cov", "ruff (==0.11.6)", "sympy (==1.13.3)", "textual-dev (==1.7.0)", "toml (<0.11)"]
 docs = ["lzstring2", "mkdocs (>=1.6.1)", "mkdocs-gen-files (>=0.5.0)", "mkdocs-material (>=9.5.49)", "mkdocstrings[python] (>=0.27.0)", "pymdown-extensions (>=10.7)"]
-gui = ["pyclip (==0.7)", "textual (==3.0.0)"]
-jax = ["jax (==0.5.3)", "numpy (==2.2.4)"]
+gui = ["pyclip (==0.7)", "textual (==3.1.0)"]
+jax = ["jax (==0.6.0)", "numpy (==2.2.5)"]
 riscv = ["riscemu (==2.2.7)"]
 
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "a0da55cab19ec81e0bd81f6ef0ae4747f204240b20db52b33a98cc268c31a19b"
+content-hash = "ef144d8658032b418f5d377ea82245ca9f34a88b66d5303d020b99140bbde7aa"
