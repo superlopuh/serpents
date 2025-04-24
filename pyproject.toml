@@ -9,7 +9,7 @@ packages = [{ include = "graphs" }]
 [tool.poetry.dependencies]
 python = "^3.11"
 xdsl = "^0.35"
-pyright = "^1.1.399"
+pyright = "^1.1.400"
 pytest = "^8.3.5"
 numpy = "^2.2.5"
 ipykernel = "^6.29.5"
