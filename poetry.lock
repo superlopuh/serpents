@@ -1288,14 +1288,14 @@ files = [
 
 [[package]]
 name = "xdsl"
-version = "0.38.0"
+version = "0.38.1"
 description = "xDSL"
 optional = false
 python-versions = ">=3.10"
 groups = ["main"]
 files = [
-    {file = "xdsl-0.38.0-py3-none-any.whl", hash = "sha256:1d2965654c7f179d9d71488edd976989de7514a2a3da10100466b32d233457f8"},
-    {file = "xdsl-0.38.0.tar.gz", hash = "sha256:75226e1819a931a12383651af0e427cdfc422fc79d64bab943eaa54fba6bd914"},
+    {file = "xdsl-0.38.1-py3-none-any.whl", hash = "sha256:e01eabb959d716a8d825a488cf9e34e759ef7d387a08c5079881a71bb72a6d51"},
+    {file = "xdsl-0.38.1.tar.gz", hash = "sha256:8cee7a285f10bb210e372b9469e885e7861b97cef2ed2524eed3835d19841c1e"},
 ]
 
 [package.dependencies]
