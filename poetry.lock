@@ -1288,14 +1288,14 @@ files = [
 
 [[package]]
 name = "xdsl"
-version = "0.38.1"
+version = "0.39.0"
 description = "xDSL"
 optional = false
 python-versions = ">=3.10"
 groups = ["main"]
 files = [
-    {file = "xdsl-0.38.1-py3-none-any.whl", hash = "sha256:e01eabb959d716a8d825a488cf9e34e759ef7d387a08c5079881a71bb72a6d51"},
-    {file = "xdsl-0.38.1.tar.gz", hash = "sha256:8cee7a285f10bb210e372b9469e885e7861b97cef2ed2524eed3835d19841c1e"},
+    {file = "xdsl-0.39.0-py3-none-any.whl", hash = "sha256:2551a6453d211115edffe2b3be9a2f40c1cc6440f6a154e7dde34f9135cf2153"},
+    {file = "xdsl-0.39.0.tar.gz", hash = "sha256:1efbe90d17ef4ad1785e91688956178e87372f707ad88f95a394ec7731e6d45c"},
 ]
 
 [package.dependencies]
@@ -1305,7 +1305,7 @@ typing-extensions = ">=4.7,<5"
 
 [package.extras]
 bench = ["asv (>=0.6.4)", "flameprof (>=0.4)", "orjson (>=3.10.15)", "pyinstrument (>=5.0.1)", "snakeviz (>=2.2.2)", "viztracer (>=1.0.1)"]
-dev = ["coverage (<8.0.0)", "filecheck (==1.0.2)", "ipykernel", "lit (<19.0.0)", "marimo (==0.13.11)", "nbconvert (>=7.7.2,<8.0.0)", "nbval (<0.12)", "pre-commit (>=4.0.0,<5.0.0)", "pyright (==1.1.401)", "pytest (<8.4)", "pytest-asyncio (==0.26.0)", "pytest-cov", "ruff (==0.11.11)", "sympy (==1.14.0)", "textual-dev (==1.7.0)", "toml (<0.11)"]
+dev = ["coverage (<8.0.0)", "filecheck (==1.0.2)", "ipykernel", "lit (<19.0.0)", "marimo (==0.13.15)", "nbconvert (>=7.7.2,<8.0.0)", "nbval (<0.12)", "pre-commit (>=4.0.0,<5.0.0)", "pyright (==1.1.401)", "pytest (<8.4)", "pytest-asyncio (==1.0.0)", "pytest-cov", "ruff (==0.11.12)", "sympy (==1.14.0)", "textual-dev (==1.7.0)", "toml (<0.11)"]
 docs = ["lzstring2", "mkdocs (>=1.6.1)", "mkdocs-gen-files (>=0.5.0)", "mkdocs-material (>=9.5.49)", "mkdocstrings[python] (>=0.27.0)", "pymdown-extensions (>=10.7)"]
 gui = ["pyclip (==0.7)", "textual (==3.2.0)"]
 jax = ["jax (==0.6.0)", "numpy (==2.2.6)"]
@@ -1314,4 +1314,4 @@ riscv = ["riscemu (==2.2.7)"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "415bea9f482272e7e28c28f6aedd24b8a179c791b830054f470157509a2b667c"
+content-hash = "6f3de9cdede9d8b95c5fe65b7802885222c15cfdeb719ebae1ed87c981d5c4ea"
