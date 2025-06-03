@@ -10,7 +10,7 @@ packages = [{ include = "graphs" }]
 python = "^3.11"
 xdsl = "^0.39"
 pyright = "^1.1.401"
-pytest = "^8.3.5"
+pytest = "^8.4.0"
 numpy = "^2.2.6"
 ipykernel = "^6.29.5"
 nbval = "^0.11.0"
