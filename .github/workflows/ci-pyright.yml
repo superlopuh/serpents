@@ -42,6 +42,6 @@ jobs:
           echo "PYRIGHT_VERSION=$VER" >> $GITHUB_ENV
 
       - name: Pyright
-        uses: jakebailey/pyright-action@v1
+        uses: jakebailey/pyright-action@v2
         with:
           version: ${{ env.PYRIGHT_VERSION }}
