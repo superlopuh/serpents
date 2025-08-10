@@ -34,9 +34,11 @@ typeCheckingMode = "strict"
 profile = "black"
 
 [tool.ruff]
-select = ["E", "F", "W", "I", "UP", "PT"]
 line-length = 90
 target-version = "py311"
 
-[tool.ruff.mccabe]
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "PT"]
+
+[tool.ruff.lint.mccabe]
 max-complexity = 10
