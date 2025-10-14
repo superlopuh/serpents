@@ -10,7 +10,7 @@ dependencies = [
     "pyright>=1.1.402,<2",
     "pytest>=8.4.0,<9",
     "numpy>=2,<3",
-    "ipykernel>=6.29.5,<7",
+    "ipykernel>=7.0.1,<8",
     "nbval>=0.11.0,<0.12",
     "riscemu>=2.2.7,<3",
 ]
