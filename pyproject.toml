@@ -6,7 +6,7 @@ authors = [{ name = "Sasha Lopoukhine", email = "sasha@lopoukhine.com" }]
 requires-python = "~=3.11"
 readme = "README.md"
 dependencies = [
-    "xdsl>=0.62,<0.63",
+    "xdsl>=0.63,<0.64",
     "pyright>=1.1.402,<2",
     "pytest>=9,<10",
     "numpy>=2,<3",
