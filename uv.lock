@@ -1,5 +1,5 @@
 version = 1
-revision = 3
+revision = 5
 requires-python = ">=3.11, <4"
 
 [[package]]
@@ -702,7 +702,7 @@ requires-dist = [
     { name = "pyright", specifier = ">=1.1.402,<2" },
     { name = "pytest", specifier = ">=9,<10" },
     { name = "riscemu", specifier = ">=2.2.7,<3" },
-    { name = "xdsl", specifier = ">=0.70,<0.71" },
+    { name = "xdsl", specifier = ">=0.74,<0.75" },
 ]
 
 [[package]]
@@ -766,11 +766,11 @@ wheels = [
 
 [[package]]
 name = "typing-extensions"
-version = "4.9.0"
+version = "4.16.0"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/0c/1d/eb26f5e75100d531d7399ae800814b069bc2ed2a7410834d57374d010d96/typing_extensions-4.9.0.tar.gz", hash = "sha256:23478f88c37f27d76ac8aee6c905017a143b0b1b886c3c9f66bc2fd94f9f5783", size = 74918, upload-time = "2023-12-10T01:14:22.627Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/f6/cc/6253133b5bb138fc3306cebfbda2c520f545d36b5be2c7255cc528bb45d6/typing_extensions-4.16.0.tar.gz", hash = "sha256:dc983d19a509c94dba722ee6abd33940f7c05a89e243c47e907eb4db6f1a43e5", size = 113555, upload-time = "2026-07-02T08:40:05.92Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/b7/f4/6a90020cd2d93349b442bfcb657d0dc91eee65491600b2cb1d388bc98e6b/typing_extensions-4.9.0-py3-none-any.whl", hash = "sha256:af72aea155e91adfc61c3ae9e0e342dbc0cba726d6cba4b6c72c1f34e47291cd", size = 32750, upload-time = "2023-12-10T01:14:20.617Z" },
+    { url = "https://files.pythonhosted.org/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl", hash = "sha256:481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8", size = 45571, upload-time = "2026-07-02T08:40:04.659Z" },
 ]
 
 [[package]]
@@ -784,14 +784,14 @@ wheels = [
 
 [[package]]
 name = "xdsl"
-version = "0.70.0"
+version = "0.74.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "immutabledict" },
     { name = "ordered-set" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/ce/67/a303961d494bb3f95f5d030632912fde66bb53e5743ef7b9a322b0f12e7b/xdsl-0.70.0.tar.gz", hash = "sha256:86295a650cca786f2da2b5ec23953c777e6cd2b90b1315a39bd4a123742666a9", size = 4273320, upload-time = "2026-08-28T12:49:16.192Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/37/72/8c94587e018de9c680cb5c96c6df8c0fb34f3ef488968b201659a8e5f4e5/xdsl-0.74.0.tar.gz", hash = "sha256:73e9df62bc4b67c296449da4935e26f0e2fbc5f6fb53a0747f1292fd72477015", size = 4288385, upload-time = "2026-10-19T09:03:12.509Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/d4/89/049f192e68cc95a69334ffad9f5af93f23b7b46a104dd45fa733b5ba5ef7/xdsl-0.70.0-py3-none-any.whl", hash = "sha256:f80a5356470af0dac46083ddde5bf1896271f19676aac7fb04ba44590d47c52b", size = 4549048, upload-time = "2026-08-28T12:49:14.434Z" },
+    { url = "https://files.pythonhosted.org/packages/a0/38/41ec4f802bd3422a6e79ebc23c8884c22f707e92a21fc26d0ee7095ef7f6/xdsl-0.74.0-py3-none-any.whl", hash = "sha256:f6195d9ea6fc12cfeae5545e5e1674e2c982e775782f2f4648934e2e0736282d", size = 4605678, upload-time = "2026-10-19T09:03:10.692Z" },
 ]
